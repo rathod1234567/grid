@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+.parent{
+    background-color: aliceblue;
+    margin: 355px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px  ;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px; 
+    
+}
+.child{
+    background-color: greenyellow;
+}
+
+.child1{
+    background-color: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+.child2{
+    background-color: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.child3{
+    background-color: greenyellow;
+    grid-column-start: 7;
+    grid-column-end: 13;
+}
+
+.child4{
+    background-color: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.child5{
+    background-color: greenyellow;
+    grid-column-start: 5;
+    grid-column-end: 9;
+}
+
+.child6{
+    background-color: greenyellow;
+    grid-column-start: 9;
+    grid-column-end: 13;
+}
+
+.child7{
+    background-color: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.child8{
+    background-color: greenyellow;
+    grid-column-start: 4;
+    grid-column-end: 7;
+
+}
+
+.child9{
+    background-color: greenyellow;
+    grid-column-start:7;
+    grid-column-end: 10;
+}
+.child10{
+    background-color: greenyellow;
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+.child11{
+    background-color: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.child12{
+    background-color: greenyellow;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.child13{
+    background-color: greenyellow;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+.child14{
+    background-color: greenyellow;
+    grid-column-start: 7;
+    grid-column-end: 9;
+
+}
+.child15{
+    background-color: greenyellow;
+    grid-column-start: 9;
+    grid-column-end: 11;
+}
+.child16{
+    background-color: greenyellow;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
